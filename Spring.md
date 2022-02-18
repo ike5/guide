@@ -5,7 +5,7 @@
 
 ## Simple REST Controller
 
-`
+```java
 @RestController
 public class GreetingController {
 
@@ -18,4 +18,4 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 }
-`java
+```
